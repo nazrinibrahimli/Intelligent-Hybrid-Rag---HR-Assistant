@@ -24,10 +24,10 @@ A privacy-first **Hybrid Retrieval-Augmented Generation (RAG)** application buil
    ollama run llama3:8b
 
 2. Activate your virtual environment and install dependencies:
-        bash
-        source venv/bin/activate
-        pip install streamlit pandas pypdf ollama
+    ```zsh
+   source venv/bin/activate
+   pip install streamlit pandas pypdf ollama
 
 3. Launch the application front-end
-        bash
-        streamlit run app.py        
+    ```zsh
+    streamlit run app.py        
